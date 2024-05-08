@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: peru;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <div class="container">
+        <p>Welcome to JobFinder, your go-to destination for finding the perfect job opportunities tailored to your skills and interests. At JobFinder, we understand the importance of connecting talented individuals with leading companies around the world.</p>
+        <p>Our mission is to simplify the job search process by providing a user-friendly platform where job seekers can explore a wide range of employment opportunities across various industries. Whether you're a recent graduate looking for your first job or an experienced professional seeking new challenges, JobFinder has something for everyone.</p>
+        <p>With our intuitive search functionality and comprehensive job listings, finding your dream job has never been easier. We are committed to helping you navigate through the job market and take the next step in your career journey.</p>
+        <p>Join the JobFinder community today and unlock endless possibilities for professional growth and development. Together, let's build a brighter future one job at a time.</p>
+    </div>
+</body>
+</html>

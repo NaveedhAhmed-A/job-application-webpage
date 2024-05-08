@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: peru;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-left {
+            flex: 1;
+        }
+        .nav-center {
+            flex: 2;
+            text-align: center;
+        }
+        .nav-right {
+            flex: 1;
+            text-align: right;
+        }
+        .nav-right a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .company-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .company-profile {
+
+            flex: 0 0 calc(33.33% - 20px);
+            height: 200px;
+            border: 2px solid peru;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            display: flex;
+        }
+        .logo {
+            flex: 1;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+        .company-info {
+            flex: 1;
+            padding: 20px;
+        }
+        .company-name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .company-content {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h2>Jobs Here</h2>
+        </div>
+        <div class="nav-center">
+            <input type="text" style="width: 400px; height: 35px; font-size: 20px; border-radius: 10px;" placeholder="Search Company">
+        </div>
+        <div class="nav-right">
+            <a href="indexpage.html" class="highlight" style="color: red;">Apply for Job</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </nav>
+
+    <div class="company-container">
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img1.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">TechGiant Inc.</h2>
+                <p class="company-content">Software Engineer positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img2.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">BioHealth Solutions</h2>
+                <p class="company-content">Biomedical Researcher positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img3.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">GreenTech Innovations</h2>
+                <p class="company-content">Environmental Engineer positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img4.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">DataTech Solutions</h2>
+                <p class="company-content">Data Scientist positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img5.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">MediCare Services</h2>
+                <p class="company-content">Medical Practitioner positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img6.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">FinanceWorks Inc.</h2>
+                <p class="company-content">Financial Analyst positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img7.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">TechSavvy Solutions</h2>
+                <p class="company-content">IT Support Specialist positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img8.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">HealthTech Innovations</h2>
+                <p class="company-content">Healthcare Researcher positions available.</p>
+            </div>
+        </div>
+        <div class="company-profile">
+            <div class="logo">
+                <img src="img9.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h2 class="company-name">EcoEnergy Solutions</h2>
+                <p class="company-content">Renewable Energy Engineer positions available.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

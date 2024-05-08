@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 20px;
+        }
+        li h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <div class="container">
+        <ul>
+            <li>
+                <h2>Job Search Assistance</h2>
+                <p>Let us help you navigate the job market and find the perfect job opportunity tailored to your skills and interests. Our experienced team will provide personalized job search assistance to ensure you land your dream job.</p>
+            </li>
+            <li>
+                <h2>Resume Building</h2>
+                <p>Your resume is your first impression on potential employers. We offer professional resume building services to help you create a standout resume that highlights your strengths and accomplishments.</p>
+            </li>
+            <li>
+                <h2>Interview Preparation</h2>
+                <p>Prepare for your job interviews with confidence. Our interview preparation services include mock interviews, interview coaching, and valuable tips to help you ace your interviews and impress hiring managers.</p>
+            </li>
+            <li>
+                <h2>Career Counseling</h2>
+                <p>Not sure which career path to pursue? Our career counseling services can provide clarity and guidance to help you make informed decisions about your future. Let us assist you in exploring various career options and finding the right fit for you.</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
